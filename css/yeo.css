@@ -1,0 +1,502 @@
+body {
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    color: #2E2E2E;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a:focus {
+    box-shadow: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #2623d0;
+}
+
+
+.container .columns {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.container .column {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.yeo-body {
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+
+.navbar .navbar-brand.logo {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.logo-img {
+    padding-right: 10px;
+    display: inline-block;
+    height: 24px;
+}
+
+.yeo-slogan {
+    background: #0a007e center;
+    background-size: auto;
+    padding-bottom: 3rem;
+/* Rectangle 10: */
+background-image: -webkit-linear-gradient(44deg, #0C0091 0%, #00A87E 100%);
+background-image: -o-linear-gradient(44deg, #0C0091 0%, #00A87E 100%);
+background-image: linear-gradient(134deg, #0C0091 0%, #00A87E 100%);
+}
+
+.yeo-slogan .slogan-bold {
+    display: block;
+}
+
+.yeo-slogan .slogan-normal {
+    display: block;
+}
+
+.yeo-slogan p {
+    font-size: .9rem;
+    line-height: 1.6;
+    font-weight: 200;
+    opacity: 0.8;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.slogan {
+    background: transparent;
+    padding-top: 3rem;
+    color: #fff;
+    text-align: left;
+    max-width: 1280px;
+}
+
+.slogan h1 {
+    font-size: 3.2rem;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.3;
+    max-width: 950px;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05rem;
+}
+
+
+.slogan-img {
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.yeo-header {
+    background: transparent;
+}
+
+.yeo-header a {
+    color: #fff;
+}
+
+.slogan .slogan-bold {
+    color: #00ffd4;
+}
+
+
+.slogan .btn-start {
+    padding: .9rem 1.5rem;
+    height: auto;
+    background: transparent;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-color: rgba(255, 255, 255, .4);
+    letter-spacing: 0.05rem;
+}
+
+.feature-title {
+    font-weight: 200;
+    font-size: 1rem;
+    padding: .5rem 0 .5rem 0;
+    opacity: .5;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid #bcb9b9;
+    margin: 0 auto 2rem;
+}
+
+.yeo-header .navbar {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 0 1rem 0;
+}
+
+.yeo-header .navbar-section .btn.btn-link {
+    color: #fff;
+    padding: .25rem 1.2rem;
+    opacity: .9;
+}
+
+.yeo-header .btn-hire-me {
+    background: #00bc9e;
+    border-color: transparent;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: .25rem 1rem;
+}
+
+/* Our Client*/
+
+.yeo-client {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.yeo-client-title {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0 0 1.5rem 0;
+    font-weight: 200;
+    opacity: .5;
+}
+
+
+.client-logo {}
+
+.yeo-client a {
+    display: inline-block;
+    margin-right: 3.5rem;
+}
+
+.yeo-client a:last-child {
+    margin: 0;
+}
+
+.yeo-client img {
+    height: 34px;
+}
+
+/* Yeo Price */
+
+.yeo-price {
+    padding: 0 0 4rem 0;
+    background: #0a007e;
+}
+
+.yeo-price .panel {
+    text-align: center;
+    background: #fff;
+    border: none;
+}
+
+.yeo-price .panel ul {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.yeo-price .panel .panel-title {
+    font-size: .8rem;
+    font-weight: 400;
+    padding: .5rem 0 0 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.yeo-price .panel p {
+    margin: 0;
+}
+
+.yeo-price .panel .price {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.yeo-price .btn-price {
+    padding: .6rem 1rem;
+    background: #1f1f23;
+    color: #fff;
+    height: auto;
+    min-width: 220px;
+    font-size: .9rem;
+}
+
+.yeo-price .panel .panel-footer {
+    padding-bottom: 2rem;
+}
+
+/* Yeo Team */
+
+.yeo-team {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 3rem 0;
+    background: #f7f7f7;
+}
+
+
+.yeo-team .team-title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.yeo-team .name {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .6rem 0 .2rem 0;
+    display: block;
+}
+
+
+.yeo-team .title {
+    font-size: .8rem;
+    opacity: .5;
+}
+
+
+.yeo-team img {
+    max-width: 250px;
+}
+
+.yeo-team .s-circle {
+    border-radius: 4px;
+}
+
+
+/* What We Do */
+
+.yeo-do {
+    padding: 3rem 0 4rem 0;
+    text-align: center;
+}
+
+
+
+.yeo-do .yeo-do-content {
+    padding: 0 1rem;
+}
+
+.yeo-do img {
+    max-height: 60px;
+}
+
+.yeo-do h3 {
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 1rem 0 .1rem 0;
+}
+
+.yeo-do p {
+    font-size: .8rem;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.yeo-do a {
+    color: #382CBE;
+}
+
+
+
+/* How We Work */
+
+.yeo-work {
+    padding: 4rem 0 1rem 0;
+    background: #0a007e;
+    color: #fff;
+    background-size: cover;
+}
+
+.yeo-work-feature-bold {
+    color: #00ffd4;
+}
+
+.yeo-work-img img {
+    width: 300px;
+}
+
+.yeo-work .yeo-work-feature {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.3;
+    text-align: center;
+}
+
+
+
+/* Open Source */
+
+.yeo-open-source {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.open-source-feature {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.yeo-open-source .btn-open-source {
+    padding: .8rem 1.5rem;
+    background: #fff;
+    border-color: #ddd;
+    color: #444;
+    height: auto;
+}
+
+
+.yeo-footer {
+    background: #0a007e;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.yeo-footer h4 {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.yeo-footer .nav .nav-item a {
+    padding: .3rem 0rem;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: 200;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .slogan {
+        padding-top: 0rem;
+    }
+
+    .slogan h1 {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin-bottom: .5rem;
+    }
+
+    .yeo-slogan {
+        padding-bottom: 2rem;
+    }
+
+    .yeo-slogan p {
+        font-size: .7rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .yeo-do {
+        padding: 1rem 0 2rem 0;
+    }
+
+    .yeo-do .yeo-do-content {
+        padding-right: 0;
+        padding-bottom: 1.5rem;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 1.5rem;
+    }
+
+    .yeo-client a {
+        margin: 10px 15px;
+    }
+
+    .yeo-price .panel {
+        text-align: center;
+        background: #fff;
+        margin-bottom: 1rem;
+    }
+
+    .yeo-do h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem 0 .1rem 0;
+    }
+
+    .yeo-work {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .yeo-work .yeo-work-feature {
+        font-size: 2rem;
+    }
+
+    .yeo-open-source {
+        padding: 2rem 0;
+    }
+
+    .open-source-feature {
+        font-size: 2rem;
+    }
+
+    .yeo-client img {
+    height: 30px;
+}
+
+    .yeo-footer {
+        padding: 2rem 0;
+    }
+
+    .yeo-footer-content {
+        padding-bottom: 1rem;
+    }
+
+    .yeo-footer h4 {
+        font-size: 1rem;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    .feature-title {
+        font-weight: 200;
+        font-size: 1rem;
+        padding: 1rem 0 1rem 0;
+        opacity: .5;
+    }
+
+    .yeo-team {
+        padding: 1rem 0;
+    }
+
+    .yeo-price {
+        padding: 0 0 2rem 0;
+    }
+
+    .yeo-team .title {
+        font-size: .8rem;
+        opacity: .5;
+        padding-bottom: 2rem;
+        display: block;
+    }
+
+    .yeo-price .btn-price {
+        padding: .6rem .5rem;
+        background: #382CBE;
+        color: #fff;
+        height: auto;
+        width: 90%;
+        font-size: .8rem;
+    }
+
+}
