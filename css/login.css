@@ -112,3 +112,15 @@ body {
 .login-form .action button:nth-child(2):hover {
 	background: #3c4d6d;
 }
+
+.glog {
+	display: flex;
+	justify-content: center;
+}
+
+.glog button {
+	font-size: 1.2em !important;
+	margin: 1em 0em 1.1em;
+	width: 13em;
+	padding-left: 0.8em !important;
+}
