@@ -9,21 +9,8 @@ class Home extends React.Component {
 		this.state = {
 			login: 0,
 			profileData: {},
-			items: {},
-			DataLoaded: true,
 		};
 	}
-
-	// componentDidMount() {
-	// 	fetch("/api")
-	// 		.then((res) => res.json())
-	// 		.then((json) => {
-	// 			this.setState({
-	// 				items: json,
-	// 				DataLoaded: true,
-	// 			});
-	// 		});
-	// }
 
 	render() {
 		if (this.state.login == 1) {
@@ -45,14 +32,6 @@ class Home extends React.Component {
 				</Layout>
 			);
 		} else {
-			// //login state is either 0 or 2
-			// if (this.state.DataLoaded == undefined)
-			// 	return (
-			// 		<div>
-			// 			<h1> Pleses wait some time.... </h1>{" "}
-			// 		</div>
-			// 	);
-			// else {
 			return (
 				<Layout title="Home / teamfinder">
 					<Landing
@@ -63,7 +42,6 @@ class Home extends React.Component {
 								login: 1,
 							});
 						}}
-						data={this.state.items.user}
 					/>
 				</Layout>
 			);

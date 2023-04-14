@@ -5,7 +5,11 @@ import { GoogleSignIn } from "react-google-login";
 class Landing extends React.Component {
 	render() {
 		var loginbtn = (
-			<a className="btn btn-primary btn-hire-me" href="#">
+			<a
+				className="btn btn-primary btn-hire-me"
+				href="#"
+				onClick={this.props.onLogin}
+			>
 				Login
 			</a>
 		);
@@ -24,14 +28,6 @@ class Landing extends React.Component {
 			}
 		}
 
-		// var year_box = "";
-		// var year = this.state.data;
-		// if (year) {
-		// 	if (typeof year != undefined) {
-		// 		year_box = <div id="year_box">{this.state.data}</div>;
-		// 	}
-		// }
-
 		return (
 			<div id="landing" className="yeo-slogan">
 				<div className="container yeo-header">
@@ -49,7 +45,7 @@ class Landing extends React.Component {
 									</a>
 								</section>
 								<section className="navbar-section hide-xs">
-									<a className="btn btn-link" href="#">
+									<a className="btn btn-link" href="/Forum">
 										Forum
 									</a>
 									<a className="btn btn-link" href="#">
@@ -97,7 +93,7 @@ class Landing extends React.Component {
 				</div>
 
 				<div id="select" className="container d-flex flex-row">
-					<Select />
+					<Select profileData={this.props.profileData} />
 				</div>
 			</div>
 		);

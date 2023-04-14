@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#forum_display {
+	width: 60em;
+	height: 20em;
+	background-color: black;
+}
+
+.row1 {
+	min-height: 5em;
+	width: 90%;
+}
+
+.col1 {
+	width: 14%;
+}

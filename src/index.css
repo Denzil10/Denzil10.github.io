@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 #landing {
+	min-height: 100%;
 	font-size: 2.4vw !important;
 }
 
@@ -37,6 +38,7 @@ p {
 /* the most responsive code i got  */
 .btn.btn-success {
 	font-size: 0.7em;
+	font-size: 20px;
 	line-height: 1em;
 	height: 2em;
 	margin: 0.6em;

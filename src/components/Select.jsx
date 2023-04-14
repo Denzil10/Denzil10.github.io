@@ -6,7 +6,7 @@ class Select extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			current: "",
+			event: "",
 			last_data: this.data["preference"],
 			level: 0,
 			final_opt: "",
@@ -52,8 +52,14 @@ class Select extends React.Component {
 	}
 
 	onEventFn = (e) => {
-		console.log("optionclicked, now on level: " + (this.state.level + 1));
 		let c = e.target.innerText;
+
+		if (this.state.level == 0) {
+			//first click so note the event
+			this.setState({
+				event: c,
+			});
+		}
 
 		//events done
 		if (this.state.level == 1) {
@@ -109,7 +115,12 @@ class Select extends React.Component {
 
 		// PROVIDE FORMS
 		else {
-			return <Form />;
+			return (
+				<Form
+					profileData={this.props.profileData}
+					event={this.state.event}
+				/>
+			);
 		}
 	}
 }

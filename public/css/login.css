@@ -1,19 +1,28 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	-webkit-font-smoothing: antialiased;
 }
 
 body {
-	background: #e35869;
 	font-family: "Rubik", sans-serif;
 }
 
+#login-container {
+	min-height: 30em;
+	padding: 4%;
+	background: #8ae36a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .login-form {
-	background: #fff;
+	background-color: white;
 	width: 500px;
-	margin: 65px auto;
+	height: 92%;
+	margin: 5px auto;
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-orient: vertical;

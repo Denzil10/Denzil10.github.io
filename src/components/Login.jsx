@@ -34,8 +34,8 @@ class Login extends Component {
 
 	render() {
 		return (
-			<div className="login-form">
-				<form>
+			<div id="login-container" className="">
+				<form className="login-form">
 					<h1>Login</h1>
 					<div className="content">
 						<div className="input-field">
@@ -70,7 +70,7 @@ class Login extends Component {
 							onFailure={this.onFailure}
 							theme="dark"
 							cookiePolicy={"single_host_origin"}
-							isSignedIn={true}
+							isSignedIn={false}
 						/>
 					</div>
 				</form>
