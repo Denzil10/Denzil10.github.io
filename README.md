@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+## Kits
+
+- [Insurance Adjuster Claims Documentation Kit](https://denzil10.github.io/kits/insurance-adjuster-documentation-kit/)
+- [Landman Title-Curative Guide: Affidavit of Heirship (TX & OK)](https://denzil10.github.io/kits/landman-title-curative-guide/)
+- [Lash Vendor List — Trust-Signal Directory (10 Suppliers, Cited Sources)](https://denzil10.github.io/kits/lash-vendor-trust-signal-directory/)
+- [Notary Certificate Wording Reference (CA, TX, FL, NY)](https://denzil10.github.io/kits/notary-certificate-wording/)
+- [Private Investigator Case & Surveillance Report Kit](https://denzil10.github.io/kits/pi-report-templates/)
+- [Proof of Service Wording Guide (CA, TX, NY, FL)](https://denzil10.github.io/kits/proof-of-service-guide/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
