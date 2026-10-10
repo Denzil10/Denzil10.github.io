@@ -2,6 +2,8 @@
 
 ## Kits
 
+<!-- /kits/, /vendor-check/ and /grind/ are served by their own Pages repos (Denzil10/kits, Denzil10/vendor-check, Denzil10/grind). Edit pages there: a project repo shadows the same folder here. -->
+
 - [Insurance Adjuster Claims Documentation Kit](https://denzil10.github.io/kits/insurance-adjuster-documentation-kit/)
 - [Landman Title-Curative Guide: Affidavit of Heirship (TX & OK)](https://denzil10.github.io/kits/landman-title-curative-guide/)
 - [Lash Vendor List — Trust-Signal Directory (10 Suppliers, Cited Sources)](https://denzil10.github.io/kits/lash-vendor-trust-signal-directory/)
